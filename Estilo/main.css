@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(154, 194, 232);;
+}
+
+header{
+    background-color: rgb(88, 143, 163);
+    font-size: 20px;
+    border: black solid 8px;
+    height: 200px;
+}
+
+header nav{
+    margin-top: 5px;
+     border: 2px solid black;
+}
+
+header nav .logo{
+    text-align: revert;
+    padding-top: 0px;
+    padding-left: 20px;
+} 
+    
+header nav .logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+
+    
+}
+
+header nav .menu ul{
+    text-align: right;
+    padding-right: 15px;
+}
+
+header nav ul li{
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #0b365b;
+}
+
+
+
+main{
+    text-align: center;
+}
+
+
+main section img{
+    width: 40rem;
+    height: 20rem;
+    border: #322775 solid 5px;
+    margin-top: 50px;
+}
+
+main .cont-text h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+main .cont-text h2{
+font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+}
+
+main .cont-parrafo p{
+    font-family: 'Montserrat', sans-serif;
+    border: rgb(0, 0, 0) solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    background-color: rgb(57, 107, 123);
+    height: 400px;
+    display: flex;
+    padding: 100px;
+    border: black solid 7px;
+}
+
+ /* estilos para pc   */ 
+ @media screen and (min-width:1024px) 
+ body {
+       background-color:rgb(52, 52, 241);
+      }
+
+
+
+
+    /*CSS De la pc page*/
+    
+}
+
+footer .contacto1 .email{
+    display: flex;
+    padding-top: 80px;
+}
+
+
+
+
+
+.marcas{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.marcas2{
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+}
+
+ul li{
+    list-style: none;
+}
+
+button{
+    background-color: rgb(251, 255, 0);
+    border: black solid 3px ;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+.contener{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+
