@@ -1,5 +1,5 @@
 /* estilos index */
-@import "../otros/variables";
+@import "../utilidades/variables";
 
 /*estilos index*/
 
@@ -25,6 +25,12 @@
                 border: $borde-color;
                 margin-top: 1.25rem;
                 margin-bottom: 1.25rem;
+            
+            .animate__animated.animate__headShake{
+                --animate-delay: 0.3s
+            }
+
+        
             }
         }
     }

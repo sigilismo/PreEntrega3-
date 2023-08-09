@@ -27,15 +27,13 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                      <li class="navbar-left"><a href="../index.html">Inicio</a></li>
-                      <li class="navbar-left"><a href="marcas.html">Marcas</a></li>
-                      <li class="active"><a href="personal.html">Personal</a></li>
-                      <li><a href="contacto.html">Contacto</a></li>
-                      <li class="navbar-right"><a href="redes.html">Redes Sociales</a></li>
+                  <ul class="nav navbar-nav">
+                    <li class="navbar-left"><a href="../index.html">Inicio</a></li>
+                    <li class="navbar-left"><a href="marcas.html">Marcas</a></li>
+                    <li class="active"><a href="personal.html">Personal</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li class="navbar-right"><a href="redes.html">Redes Sociales</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -57,15 +55,15 @@
     
     <form action="formulario.html" method="post">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+        <input type="text" id="nombre" name="nombre" required>
         
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required>
         
         <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+        <textarea id="mensaje" name="mensaje" required></textarea>
         
-        <input type="submit" value="Enviar">
+        <button onclick="window.location.href = 'formulario.html';">Enviar</button>
     </form>
     <h1>Luego de enviar el formulario nos pondremos en contacto contigo en un lapso de 24 horas.</h1>
 </main>
